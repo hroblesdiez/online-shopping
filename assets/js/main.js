@@ -323,9 +323,8 @@ class DisplayProducts {
         navBar.classList.remove('bg-white');
       }
     });
-    let year = new Date().getFullYear();
-    let month = new Date().getMonth();
-    date.innerHTML = month + year;
+    let year = new Date().getUTCFullYear();
+    date.innerHTML = year;
 
   }
 
