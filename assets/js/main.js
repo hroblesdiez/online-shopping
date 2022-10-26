@@ -3,7 +3,7 @@ import '../css/main.css';
 //contentful
 const client = contentful.createClient({
   space: 'jwwnuvyk0gqo',
-  accessToken: 'i-_6NheUDolHljkdCDKY3qEgdyIFw9oPMiZlXCSJgU4',
+  accessToken: process.env.ACCESS_TOKEN,
 });
 
 
